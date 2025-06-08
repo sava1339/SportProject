@@ -1,0 +1,64 @@
+.nav-link{
+  transition: 0.4s padding;
+  padding: 0 0;
+}
+.nav-link:hover{
+  cursor: pointer;
+  padding: 0 0.5em;
+}
+.main-deco{
+  left: 50%;
+  transform: translateX(-50%);
+  top: -1em;
+}
+.main-text{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.shadow{
+  opacity: 0.2;
+  transition: 0.2s opacity;
+}
+main:hover .shadow, .sportfood:hover .shadow{
+  opacity: 0.6;
+}
+.main-nav a:hover{
+  border-bottom: 1px solid white;
+}
+.cur-ignore:hover{
+  cursor: default;
+}
+.tag{
+  background: linear-gradient(180deg, rgba(5, 5, 5, 0.9) 0%, #3a3a3a 44.23%, #5C5757 100%);
+}
+.calc-content{
+  transform: translate(-50%,-50%);
+}
+table{
+  border-collapse: collapse;
+  border: 1px solid #414141;
+}
+th,tr{
+  border: 1px solid #414141;
+}
+th{
+  text-align: start;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.centered{
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+.hover:hover{
+  cursor: pointer;
+}
+.tip{
+  display: flex !important;
+  align-items: center !important;
+}
+button:hover{
+  cursor: pointer;
+}
